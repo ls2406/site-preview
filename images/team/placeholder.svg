@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- PLACEHOLDER head-shot. Replace with a portrait photo (4:5). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262626"/>
+      <stop offset="1" stop-color="#151515"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="400" r="130" fill="#ffffff" fill-opacity="0.12"/>
+  <path d="M120 900c20-190 150-290 280-290s260 100 280 290" fill="#ffffff" fill-opacity="0.12"/>
+</svg>

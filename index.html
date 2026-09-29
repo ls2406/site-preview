@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo='; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="robots" content="noindex, nofollow, noimageindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0d11" />
+
+    <title>PolarSurge · Power where the road ends</title>
+    <meta
+      name="description"
+      content="Compact, fuel-flexible engines for remote power and long-endurance drones."
+    />
+    <meta property="og:title" content="PolarSurge · Power where the road ends" />
+    <meta
+      property="og:description"
+      content="Compact, fuel-flexible engines for remote power and long-endurance drones."
+    />
+    <meta property="og:type" content="website" />
+    <!-- TODO: add og:image (absolute URL) once a 1200x630 social image exists -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Lets CSS hide reveal-on-scroll content only when JavaScript is running. -->
+    <script>document.documentElement.classList.add('js')</script>
+    <script type="module" crossorigin src="/assets/index-BkUogJMf.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-4mlqx_MF.css">
+  </head>
+
+  <body>
+    <!-- ================================================================ -->
+    <!-- Header / navigation                                              -->
+    <!-- ================================================================ -->
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="#top">
+          <img src="/images/logo.svg" alt="" width="44" height="44" />
+          <span class="nav__name" data-site-name>PolarSurge</span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Menu"
+        >
+          <span></span><span></span>
+        </button>
+
+        <ul id="nav-menu" class="nav__menu">
+          <li><a href="#why">Why</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a class="nav__cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ============================================================== -->
+      <!-- Hero: pixel northern night scene (src/effects/arcade.js)        -->
+      <!-- ============================================================== -->
+      <section class="hero" id="hero">
+        <canvas class="hero__scene" aria-hidden="true"></canvas>
+
+        <div class="hero__content">
+          <h1 class="hero__title">Power where the road ends.</h1>
+          <p class="hero__tagline">
+            Compact, fuel-flexible engines for remote power and long-endurance aircraft.
+          </p>
+          <div class="hero__actions">
+            <a class="button" href="#applications">See applications</a>
+            <a class="button button--ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <a class="hero__scroll" href="#why" aria-label="Scroll to the next section">
+          <svg viewBox="0 0 9 5" width="27" height="15" shape-rendering="crispEdges" aria-hidden="true" fill="currentColor">
+            <rect x="0" y="0" width="1" height="1"/><rect x="8" y="0" width="1" height="1"/>
+            <rect x="1" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/>
+            <rect x="2" y="2" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/>
+            <rect x="3" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/>
+            <rect x="4" y="4" width="1" height="1"/>
+          </svg>
+        </a>
+      </section>
+
+      <!-- ============================================================== -->
+      <!-- Why it matters (rendered from src/data.js: reasons)            -->
+      <!-- ============================================================== -->
+      <section class="section" id="why">
+        <div class="container">
+          <div class="split reveal">
+            <div>
+              <p class="eyebrow">Sec 01 / Why it matters</p>
+              <h2 class="section__title">Reliable power, where it is hardest to deliver.</h2>
+            </div>
+            <div class="prose">
+              <p>
+                Remote sites and long-endurance aircraft depend on small engines that must run for hours
+                at a time, in the cold, on whatever fuel is on hand.
+              </p>
+            </div>
+          </div>
+          <div id="why-grid" class="why"></div>
+        </div>
+      </section>
+
+      <!-- ============================================================== -->
+      <!-- Approach (rendered from src/data.js: approach)                 -->
+      <!-- ============================================================== -->
+      <section class="section section--approach" id="approach">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="eyebrow">Sec 02 / Approach</p>
+            <h2 class="section__title">One engine core. Many duties.</h2>
+            <p class="section__intro">
+              We design and build a single engine core and package it for the job, on the ground and in
+              the air.
+            </p>
+          </div>
+          <!-- Mini scene (src/effects/swap.js): drone lands, core comes out, goes into a genset. -->
+          <div class="approach__scene bracketed reveal">
+            <canvas
+              class="approach__canvas"
+              role="img"
+              aria-label="Animation: a drone lands, a technician lifts its engine core out, fits it into a generator set and starts it, and a light comes on."
+            ></canvas>
+          </div>
+          <ol id="approach-steps" class="steps"></ol>
+        </div>
+      </section>
+
+      <!-- ============================================================== -->
+      <!-- Applications (rendered from src/data.js: applications)         -->
+      <!-- ============================================================== -->
+      <section class="section section--grid" id="applications">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="eyebrow">Sec 03 / Applications</p>
+            <h2 class="section__title">From remote stations to long-range aircraft.</h2>
+            <p class="section__intro">
+              The same core, packaged for where it will run.
+            </p>
+          </div>
+          <div id="applications-grid" class="apps"></div>
+        </div>
+      </section>
+
+      <!-- ============================================================== -->
+      <!-- Team (rendered from src/data.js: team)                         -->
+      <!-- ============================================================== -->
+      <section class="section" id="team">
+        <div class="container">
+          <div class="split reveal">
+            <div>
+              <p class="eyebrow">Sec 04 / Team</p>
+              <h2 class="section__title">Built by combustion specialists.</h2>
+            </div>
+            <div class="prose">
+              <p>
+                A founding team across combustion, fuel sprays and engine development. Customers deal
+                directly with the engineers who design the engine.
+              </p>
+            </div>
+          </div>
+          <div id="team-grid" class="team-grid"></div>
+        </div>
+      </section>
+
+      <!-- ============================================================== -->
+      <!-- Contact                                                        -->
+      <!-- ============================================================== -->
+      <section class="section section--contact" id="contact">
+        <div class="container">
+          <div class="split split--contact reveal">
+            <div>
+              <p class="eyebrow">Sec 05 / Contact</p>
+              <h2 class="section__title">Tell us what you need to power.</h2>
+              <p class="prose contact__intro">
+                Remote power or long-endurance aircraft: tell us what you need to run, and where.
+              </p>
+              <p class="contact__note">Technical detail is available to qualified partners under NDA.</p>
+              <a id="contact-email" class="contact__email" href="mailto:contact@polarsurge.ca">contact@polarsurge.ca</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================================================================ -->
+    <!-- Footer                                                           -->
+    <!-- ================================================================ -->
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__copy">
+          &copy; <span id="year"></span> <span data-site-name>PolarSurge</span><br />
+          <span class="site-footer__muted">All rights reserved</span>
+        </p>
+        <ul id="social-links" class="site-footer__links"></ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
